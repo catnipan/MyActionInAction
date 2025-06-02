@@ -11,7 +11,7 @@ jobs:
         id: my-action
         uses: ./
         with:
-          who-to-greet: '@catnipan'
+          user: '@catnipan'
       - name: Output the answer
         run: echo "The answer is ${{ steps.my-action.outputs.answer }}"
       - name: Test the container
