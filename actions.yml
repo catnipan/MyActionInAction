@@ -1,4 +1,4 @@
-name: "{GitHub username}'s Action in Action"
+name: "Catnipan's Action in Action"
 description: 'Greets someone and returns always 42.'
 inputs:
   who-to-greet: # id of input
